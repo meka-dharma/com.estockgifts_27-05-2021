@@ -1,6 +1,8 @@
 package Smoke_Test;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import com.estockgifts.base.base_class;
 
@@ -97,7 +99,7 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			/* logger.error("Test Fail", e); */
 			//onTestFailure();
 			// quitBrowser();
-			AssertJUnit.fail("");
+			Assert.fail("");
 
 		}
 
