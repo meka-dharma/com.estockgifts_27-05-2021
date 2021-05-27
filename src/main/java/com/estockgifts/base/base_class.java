@@ -43,16 +43,16 @@ public static WebDriver driver;
 			
 					WebDriverManager.chromedriver().setup();
 					ChromeOptions options = new ChromeOptions();
-			       // options.addArguments("--headless");
-			        driver = new ChromeDriver(options);
+			                options.addArguments("--headless");
+			                driver = new ChromeDriver(options);
 					System.out.println("Chrome Browser Opened Sucessfully");
 				}
 				else if(browser.equalsIgnoreCase("Firefox")){
 					
 					WebDriverManager.firefoxdriver().setup();
 					FirefoxOptions options = new FirefoxOptions();
-			        //options.addArguments("--headless");
-			        driver = new FirefoxDriver(options);
+			                options.addArguments("--headless");
+			                driver = new FirefoxDriver(options);
 					System.out.println("Firefox Browser Opened Sucessfully");
 				}
 			 }catch(Exception e){
