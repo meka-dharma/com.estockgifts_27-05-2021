@@ -85,6 +85,11 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 // 			click(front_OK);
 // 			System.out.println("Images upload Successfully");
 			
+			click(Ok_Button);
+			driver.findElement(By.xpath(Locator)).click();
+			Thread.sleep(10000);
+			
+			
 
 			sendValue(Message, prop.getProperty("Message"));
 			System.out.println("Enter text Successfully");
@@ -93,6 +98,7 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			System.out.println("Enter crypto value Successfully");
 
 			Payment_Type(prop.getProperty("Payment_Method"));
+			System.out.println("Gift Card created Successfully...");
 			
 
 		} catch (Exception e) {
