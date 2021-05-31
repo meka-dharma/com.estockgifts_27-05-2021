@@ -74,20 +74,18 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			sendValue(Recipient_Email, prop.getProperty("RecipientEmail"));
 			sendValue(Recipient_PhoneNo, prop.getProperty("RecipientPhoneNum"));
 
-			/*Uploadimage(Front_Image, prop.getProperty("Front_Image"));
+			Uploadimage(Front_Image, prop.getProperty("Front_Image"));
 			click(Ok_Button);
 			Uploadimage(Back_Image, prop.getProperty("Back_Image"));
 			click(Ok_Button);
 			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
-			click(Ok_Button);*/
+			click(Ok_Button);
 			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
 // 			Upload(Front_Image,prop.getProperty("Front_Image1"));
 // 			click(front_OK);
 // 			System.out.println("Images upload Successfully");
 			
 			
-			
-
 			sendValue(Message, prop.getProperty("Message"));
 			System.out.println("Enter text Successfully");
 
