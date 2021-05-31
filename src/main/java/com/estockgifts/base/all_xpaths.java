@@ -13,7 +13,8 @@ public interface all_xpaths {
    	
  String CustomGiftcard = "/html/body/div[1]/app-root/div[1]/app-header/nav/div/div[2]/ul/li[3]/a";  	
  String RedeemGiftcard= "/html/body/div[1]/app-root/div[1]/app-header/nav/div/div[2]/ul/li[4]/a";
- String Event = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[1]/div/input"; String Sender_FirstName = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[1]/div/input";  
+ String Event = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[1]/div/input"; 
+ String Sender_FirstName = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[1]/div/input";  
  String Sender_LastName = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[2]/div/input";
  String Sender_Email = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[4]/div/input";
  String Sender_PhoneNo = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[5]/div/div/input";
