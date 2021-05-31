@@ -75,19 +75,25 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			sendValue(Recipient_PhoneNo, prop.getProperty("RecipientPhoneNum"));
 			
                         driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+			WebElement img= driver.findElement(By.xpath(Front_Image));
+			img.click();
+			img.sendKeys("Front_Image");
+			click(Ok_Button);
+			System.out.println("Images upload Successfully");
+			
 
-			Uploadimage(Front_Image, prop.getProperty("Front_Image"));
-			click(Ok_Button);
-			Thread.sleep(5000);
-			Uploadimage(Back_Image, prop.getProperty("Back_Image"));
-			click(Ok_Button);
-			Thread.sleep(5000);
-			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
-			click(Ok_Button);
-			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
-// 			Upload(Front_Image,prop.getProperty("Front_Image1"));
-// 			click(front_OK);
-// 			System.out.println("Images upload Successfully");
+// 			Uploadimage(Front_Image, prop.getProperty("Front_Image"));
+// 			click(Ok_Button);
+// 			Thread.sleep(5000);
+// 			Uploadimage(Back_Image, prop.getProperty("Back_Image"));
+// 			click(Ok_Button);
+// 			Thread.sleep(5000);
+// 			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
+// 			click(Ok_Button);
+// 			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
+// // 			Upload(Front_Image,prop.getProperty("Front_Image1"));
+// // 			click(front_OK);
+// // 			System.out.println("Images upload Successfully");
 			
 			Thread.sleep(5000);
 			sendValue(Message, prop.getProperty("Message"));
