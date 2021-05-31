@@ -81,9 +81,9 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
 			click(Ok_Button);*/
 			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
-			Upload(Front_Image,prop.getProperty("Front_Image1"));
-			click(front_OK);
-			System.out.println("Images upload Successfully");
+// 			Upload(Front_Image,prop.getProperty("Front_Image1"));
+// 			click(front_OK);
+// 			System.out.println("Images upload Successfully");
 			
 
 			sendValue(Message, prop.getProperty("Message"));
