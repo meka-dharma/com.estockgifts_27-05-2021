@@ -69,6 +69,11 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 
 			sendValue(Event, prop.getProperty("EventName"));
 			System.out.println("Enter event name Successfully");
+			
+			sendValue(Sender_FirstName, prop.getProperty("SenderFName"));
+			sendValue(Sender_LastName, prop.getProperty("SenderLName"));
+			sendValue(Sender_Email, prop.getProperty("SenderEmail"));
+			sendValue(Sender_PhoneNo, prop.getProperty("SenderPhoneNum"));
 
 			sendValue(Recipient_FirstName, prop.getProperty("RecipientFName"));
 			sendValue(Recipient_LastName, prop.getProperty("RecipientLName"));
