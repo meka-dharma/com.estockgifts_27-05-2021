@@ -85,9 +85,6 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 // 			click(front_OK);
 // 			System.out.println("Images upload Successfully");
 			
-			click(Ok_Button);
-			driver.findElement(By.xpath(Locator)).click();
-			Thread.sleep(10000);
 			
 			
 
