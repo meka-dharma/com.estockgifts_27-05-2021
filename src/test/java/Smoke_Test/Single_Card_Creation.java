@@ -74,7 +74,7 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			sendValue(Recipient_Email, prop.getProperty("RecipientEmail"));
 			sendValue(Recipient_PhoneNo, prop.getProperty("RecipientPhoneNum"));
 			
-                        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+                        driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 
 			Uploadimage(Front_Image, prop.getProperty("Front_Image"));
 			click(Ok_Button);
