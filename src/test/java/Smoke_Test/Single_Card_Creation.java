@@ -79,7 +79,7 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			WebElement img= driver.findElement(By.xpath("/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[7]/div[1]/label"));
           		img.click();
 			Thread.sleep(5000);
-			img.sendKeys("System.getProperty("user.dir") + "/src/main/images/flower.jpg")");
+			img.sendKeys(System.getProperty("user.dir") + "/src/main/images/flower.jpg");
 			click("/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[4]/div[3]/button");
 			System.out.println("Images upload Successfully");
 			
