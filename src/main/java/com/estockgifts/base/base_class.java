@@ -48,7 +48,6 @@ public static WebDriver driver;
 					System.out.println("Chrome Browser Opened Sucessfully");
 				}
 				else if(browser.equalsIgnoreCase("Firefox")){
-					
 					WebDriverManager.firefoxdriver().setup();
 					FirefoxOptions options = new FirefoxOptions();
 			                options.addArguments("--headless");
@@ -85,7 +84,7 @@ public static WebDriver driver;
 		public static void click(String contactus){
 			
 				driver.findElement(By.xpath(contactus)).click();
-				System.out.println("Click Operation Performed Sucessfully");
+				System.out.println("Click Operation Performed Sucessfully on the element ");
 			
 		}
 		
@@ -95,7 +94,7 @@ public static WebDriver driver;
 			try {			
 				driver.findElement(By.xpath(locator)).clear();
 				driver.findElement(By.xpath(locator)).sendKeys(testdata);
-				System.out.println("Data is Passed Sucessfully to the field");
+				System.out.println(testdata +" Data is Passed Sucessfully to input field  ");
 			} catch (NoSuchElementException e) {
 				System.out.println("Unable to locate and pass the data");
 			System.out.println("Unable to locate and pass the data");
@@ -128,6 +127,41 @@ public static WebDriver driver;
 					System.out.println("Estockgifts payment gateway Selected. ");
 					click(Terms_Conditions);
 					click(Purchase);
+
+				}
+
+			} catch (Exception e) {
+				System.out.println("Failed to Select Payment option.");
+				System.out.println("Failed to select payment option ");
+			}
+
+		}
+		public static void Certificate_Payment(String Payment) throws IOException {
+			// To read The Property File 
+			Properties prop=new Properties();
+			FileInputStream ip= new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/data.properties");
+			prop.load(ip);
+			try {
+				if (Payment.equalsIgnoreCase("creditcard")) {
+					click(Payment_Creditcard);
+					System.out.println("Credit/Debit card Selected. ");
+					sendValue(creditcard_Name, prop.getProperty("Name"));
+					sendValue(creditcard_Number, prop.getProperty("Card_Num"));
+					sendValue(creditcard_Expiry_Date, prop.getProperty("Expiry"));
+					sendValue(creditcard_CVV, prop.getProperty("CVV"));
+					click(Terms_conditons);
+					click(purchase_button);
+
+				} else if (Payment.equalsIgnoreCase("Paypal")) {
+					click(Payment_Paypal);
+					System.out.println("Paypal Selected. ");
+					click(Terms_conditons);
+					click(purchase_button);
+				} else if (Payment.equalsIgnoreCase("Estockgifts_Payment")) {
+					click(Estockgifts_Payment);
+					System.out.println("Estockgifts payment gateway Selected. ");
+					click(Terms_conditons);
+					click(purchase_button);
 
 				}
 
