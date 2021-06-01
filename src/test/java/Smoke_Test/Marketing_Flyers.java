@@ -75,7 +75,8 @@ public class Marketing_Flyers extends base_class implements com.estockgifts.base
 
 			 Payment_Type(prop.getProperty("Payment_Method"));
 
-              
+              	         System.out.println("MarketingFlyer created Successfully...");
+
 				quitBrowser();
 
 
