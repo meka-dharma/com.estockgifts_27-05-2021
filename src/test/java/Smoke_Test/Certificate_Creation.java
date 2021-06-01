@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -28,13 +29,23 @@ public class Certificate_Creation extends base_class implements com.estockgifts.
 		 Thread.sleep(5000);
 
 	     // passing the URL
-	     sendURL(prop.getProperty("DevUrl"));
+	     sendURL(prop.getProperty("QAUrl"));
 		 System.out.println("Estockgifts Open Successfully");
+		 Thread.sleep(5000);
+			
+		 click(CustomGiftcard);
+		 
 		 Thread.sleep(5000);
 		 
 		 click(Certificate_Button);
-		 sendValue(Amount, prop.getProperty("Crypto_Value"));
+		 //sendValue(Certificate_Amount, prop.getProperty("Crypto_Value"));
+		 click(Amount_Clickable);
 		 System.out.println("Enter crypto value Successfully");
+		 
+		 sendValue(Sender_FirstName, prop.getProperty("SenderFName"));
+		 sendValue(Sender_LastName, prop.getProperty("SenderLName"));
+		 sendValue(Sender_Email, prop.getProperty("SenderEmail"));
+		 sendValue(Sender_PhoneNo, prop.getProperty("SenderPhoneNum"));
 		 
 		 sendValue(Recipient_FirstName, prop.getProperty("RecipientFName"));
 		 sendValue(Recipient_LastName, prop.getProperty("RecipientLName"));
@@ -44,28 +55,27 @@ public class Certificate_Creation extends base_class implements com.estockgifts.
 		 
            
 
-			 Uploadimage(Upload_Signature, prop.getProperty("Front_Image"));
-			 click(Ok_Button);
+//			 Uploadimage(Upload_Signature, prop.getProperty("Front_Image"));
+//			 click(Ok_Button);
 			 
-			 System.out.println("Signature upload Successfully");
+			 //System.out.println("Signature upload Successfully");
 
-
-			 sendValue(Message, prop.getProperty("Message"));
+		      Thread.sleep(5000);
+			 sendValue(Certificate_Message, prop.getProperty("Message"));
 			 System.out.println("Enter text Successfully");
 			 
 			 sendValue(Disclaimer_Message, prop.getProperty("Message"));
 			 System.out.println("Enter text Successfully");
 			
-			 Payment_Type(prop.getProperty("Payment_Method"));
-
-
-			
+			 Certificate_Payment(prop.getProperty("Payment_Method"));
+			 System.out.println("Certificate created Successfully...");
+			 quitBrowser();
 
 		} catch (Exception e) {
 
 				/* logger.error("Test Fail", e); */
 			    //onTestFailure();
-				//quitBrowser();
+				quitBrowser();
 				Assert.fail("");
 
 			}
