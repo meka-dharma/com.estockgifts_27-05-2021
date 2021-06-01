@@ -13,7 +13,8 @@ public interface all_xpaths {
    	
  String CustomGiftcard = "/html/body/div[1]/app-root/div[1]/app-header/nav/div/div[2]/ul/li[3]/a";  	
  String RedeemGiftcard= "/html/body/div[1]/app-root/div[1]/app-header/nav/div/div[2]/ul/li[4]/a";
- String Event = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[1]/div/input"; String Sender_FirstName = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[1]/div/input";  
+ String Event = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[1]/div/input"; 
+ String Sender_FirstName = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[1]/div/input";  
  String Sender_LastName = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[2]/div/input";
  String Sender_Email = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[4]/div/input";
  String Sender_PhoneNo = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div/div[5]/div/div/input";
@@ -39,7 +40,7 @@ public interface all_xpaths {
  String Card_Number = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[15]/div[2]/input";
  String Expiry_Date = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[15]/div[3]/div[1]/div/input";
  String CVV_Number = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[15]/div[3]/div[2]/div/input"; 
- String Terms_Conditions = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[17]/div";
+ String Terms_Conditions = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[17]/div/label";
  String Purchase = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[18]/button"; 
  String Paypal = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[14]/ul/li[2]/div/label";
  String paypal_Checkout = "//*[@id='paypal-animation-content']/div[1]/div[1]";
@@ -53,12 +54,21 @@ public interface all_xpaths {
  
 //Bulk card Xpath's
  
- String BulkCard_Button = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[1]/ul/li[2]/div/label/span";
+ String BulkCard_Button = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[1]/ul/li[2]/div/label";
  String Business_Name = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[4]/div/div/div[1]/div[1]/input";
  String First_Image = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[5]/div[1]/label";
  String Second_Image = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[6]/div[1]/label";
  String Redeem = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[6]/div[1]/label0";
  String Number_Of_Cards = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[1]/div/div[3]/input";
+ String First_Name = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[4]/div/div/div[2]/div/input";
+ String Last_Name = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[4]/div/div/div[3]/div/input";
+ String Email_ID = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[4]/div/div/div[5]/div/input";
+ String Phone_Num = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[4]/div/div/div[9]/div/div/input";
+ String Bulk_Amount = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[1]/div/div[2]/input";
+ 
+ 
+ 
+ 
  
 //Marketing Flyers Xpath's
  
@@ -67,8 +77,10 @@ public interface all_xpaths {
  String Address = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[6]/div/div[1]";
  String Eamil = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[6]/div/div[2]/div/input";
  String Phone_Number = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[6]/div/div[3]/div/input"; 
+ String Marketing_Flyar_Message="/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[3]/div/textarea";
+ String Footer_Address="/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[6]/div/div[1]/div/input";
  
-//Certicate Xpath's
+ //Certicate Xpath's
  
  String Certificate_Button = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[1]/ul/li[4]/div/label/span";
  String Bitcoin_Certificate = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[1]/div/div/ul/li[1]/div/img";
@@ -77,9 +89,18 @@ public interface all_xpaths {
  String Enter_Amount = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[2]/div[1]/div/div[2]/input";
  String Upload_Signature = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[7]/div[1]/label";
  String Disclaimer_Message = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[3]/div/div/input";
+ String Certificate_Amount = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[2]/div[1]/div/div[2]/input";
+ String Certificate_Message = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/div[1]/div/div/input";
  
- 
- 
- 
- 
-   	}
+ // certificate payment
+ String creditcard_Name = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[13]/div[1]/input";
+ String creditcard_Number = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[13]/div[2]/input";
+ String creditcard_Expiry_Date = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[13]/div[3]/div[1]/div/input";
+ String creditcard_CVV = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[13]/div[3]/div[2]/div/input";
+ String Terms_conditons = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[15]/div/label";
+ String purchase_button =  "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[16]/button";
+ String Payment_Creditcard = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[12]/ul/li[1]/div/label";
+ String Payment_Paypal = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[2]/div/div[12]/ul/li[2]/div/label";
+ String Amount_Clickable = "/html/body/div[1]/app-root/div[1]/div/app-gift-card-editor/app-create-cards/div/div[1]/div/div/div/div[1]/form[2]/div[1]/div[2]/div[1]/div[1]/div[1]/ul/li[1]";
+}
+
