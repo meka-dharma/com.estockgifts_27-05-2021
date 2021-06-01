@@ -1,6 +1,7 @@
 package Smoke_Test;
 
 import org.testng.annotations.Test;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -48,14 +50,14 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			//driver.findElement(By.xpath("/html/body/div[1]/app-root/div[1]/app-header/nav/div/div[2]/ul/li[3]/a")).click();
 			
 			//click(RedeemGiftcard);
-			click(RedeemGiftcard);
+//			click(RedeemGiftcard);
 			
 			Thread.sleep(5000);
 
 			
 			click(CustomGiftcard);
 			
-			Thread.sleep(15000);
+			Thread.sleep(5000);
 			
 			/*
 			// Passing event name
@@ -68,8 +70,13 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 
 			sendValue(Event, prop.getProperty("EventName"));
 			System.out.println("Enter event name Successfully");
+			
+			sendValue(Sender_FirstName, prop.getProperty("SenderFName"));
+			sendValue(Sender_LastName, prop.getProperty("SenderLName"));
+			sendValue(Sender_Email, prop.getProperty("SenderEmail"));
+			sendValue(Sender_PhoneNo, prop.getProperty("SenderPhoneNum"));
 
-			sendValue(Recipient_FirstName, prop.getProperty("RecipientFName"));
+			sendValue(Recipient_FirstName, prop.getProperty("RecipientFName"));			
 			sendValue(Recipient_LastName, prop.getProperty("RecipientLName"));
 			sendValue(Recipient_Email, prop.getProperty("RecipientEmail"));
 			sendValue(Recipient_PhoneNo, prop.getProperty("RecipientPhoneNum"));
@@ -81,11 +88,11 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
 			click(Ok_Button);*/
 			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
-			Upload(Front_Image,prop.getProperty("Front_Image1"));
-			click(front_OK);
-			System.out.println("Images upload Successfully");
+//			Upload(Front_Image,prop.getProperty("Front_Image1"));
+//			click(front_OK);
+//			System.out.println("Images upload Successfully");
 			
-
+		
 			sendValue(Message, prop.getProperty("Message"));
 			System.out.println("Enter text Successfully");
 
@@ -93,12 +100,14 @@ public class Single_Card_Creation extends base_class implements com.estockgifts.
 			System.out.println("Enter crypto value Successfully");
 
 			Payment_Type(prop.getProperty("Payment_Method"));
-			
+			System.out.println("Gift card created Successfully...");
+			quitBrowser();
+
 
 		} catch (Exception e) {
 			/* logger.error("Test Fail", e); */
 			//onTestFailure();
-			// quitBrowser();
+			 quitBrowser();
 			Assert.fail("");
 
 		}
