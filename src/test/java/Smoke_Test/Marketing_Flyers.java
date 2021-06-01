@@ -28,8 +28,11 @@ public class Marketing_Flyers extends base_class implements com.estockgifts.base
 		 Thread.sleep(5000);
 
 	     // passing the URL
-	      sendURL(prop.getProperty("DevUrl"));
+	      sendURL(prop.getProperty("QAUrl"));
 		 System.out.println("Estockgifts Open Successfully");
+		 Thread.sleep(5000);			
+		 click(CustomGiftcard);
+		 
 		 Thread.sleep(5000);
 		 
 		     click(Marketing_Flyer_Button);
@@ -38,41 +41,49 @@ public class Marketing_Flyers extends base_class implements com.estockgifts.base
              sendValue(Business_Name, prop.getProperty("BusinessName"));
 			 System.out.println("Enter Business name Successfully");
 
-			 Uploadimage(First_Image, prop.getProperty("Front_Image"));
-			 click(Ok_Button);
-			 Uploadimage(Second_Image, prop.getProperty("Back_Image"));
-			 click(Ok_Button);
-             Uploadimage(Redeem, prop.getProperty("Redeem_Image"));
-			 click(Ok_Button);
-			 System.out.println("Images upload Successfully");
+//			 Uploadimage(First_Image, prop.getProperty("Front_Image"));
+//			 click(Ok_Button);
+//			 Uploadimage(Second_Image, prop.getProperty("Back_Image"));
+//			 click(Ok_Button);
+//             Uploadimage(Redeem, prop.getProperty("Redeem_Image"));
+//			 click(Ok_Button);
+//			 System.out.println("Images upload Successfully");
+			 Thread.sleep(5000);
 
+			 sendValue(First_Name, prop.getProperty("SenderFName"));
+			 sendValue(Last_Name, prop.getProperty("SenderLName"));
+			 sendValue(Email_ID, prop.getProperty("SenderEmail"));
+			 sendValue(Phone_Num, prop.getProperty("SenderPhoneNum"));
 
-			 sendValue(Message, prop.getProperty("Message"));
+			 
+			 sendValue(Marketing_Flyar_Message, prop.getProperty("Message"));
 			 System.out.println("Enter text Successfully");
 			 sendValue(Giftcard_Message, prop.getProperty("GiftcardMessage"));
 			 System.out.println("Enter giftcard message Successfully");
+			 Thread.sleep(5000);
 			 
 			 //Footer Details
-             sendValue(Address, prop.getProperty("Address"));
+             sendValue(Footer_Address, prop.getProperty("Address"));
              sendValue(Eamil, prop.getProperty("Email") );
              sendValue(Phone_Number, prop.getProperty("Phonenumber"));
 
 
-			 sendValue(Amount, prop.getProperty("Crypto_Value"));
+			 sendValue(Bulk_Amount, prop.getProperty("Crypto_Value"));
 			 System.out.println("Entered crypto value Successfully");
 			 sendValue(Number_Of_Cards, prop.getProperty("Num_Cards"));
 			 System.out.println("Number of cards selected Successfully");
 
 			 Payment_Type(prop.getProperty("Payment_Method"));
 
+              
+				quitBrowser();
 
-			
 
 		} catch (Exception e) {
 
 				/* logger.error("Test Fail", e); */
 			  //  onTestFailure();
-				//quitBrowser();
+				quitBrowser();
 				Assert.fail("");
 
 			}
