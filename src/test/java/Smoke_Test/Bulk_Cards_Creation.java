@@ -65,7 +65,7 @@ public class Bulk_Cards_Creation extends base_class implements all_xpaths{
 			 sendValue(Number_Of_Cards, prop.getProperty("Num_Cards"));
 			 
 			 Payment_Type(prop.getProperty("Payment_Method"));
-			 System.out.println("Gift card created Successfully...");
+			 System.out.println("Bulk Gift cards created Successfully...");
 			quitBrowser();
 
 			
