@@ -30,34 +30,43 @@ public class Bulk_Cards_Creation extends base_class implements all_xpaths{
 		 Thread.sleep(5000);
 
 	     // passing the URL
-	      sendURL(prop.getProperty("DevUrl"));
+	      sendURL(prop.getProperty("QAUrl"));
 		 System.out.println("Estockgifts Open Successfully");
 		 Thread.sleep(5000);
-		 
+			
+			 click(CustomGiftcard);
+			 
+			 Thread.sleep(5000);
 		     click(BulkCard_Button);
 			 sendValue(Event, prop.getProperty("EventName"));
 			 System.out.println("Enter event name Successfully");
              sendValue(Business_Name, prop.getProperty("BusinessName"));
 			 System.out.println("Enter Business name Successfully");
+			 
+			 sendValue(First_Name, prop.getProperty("SenderFName"));
+			 sendValue(Last_Name, prop.getProperty("SenderLName"));
+			 sendValue(Email_ID, prop.getProperty("SenderEmail"));
+			 sendValue(Phone_Num, prop.getProperty("SenderPhoneNum"));
 
-			 Uploadimage(First_Image, prop.getProperty("Front_Image"));
-			 click(Ok_Button);
-			 Uploadimage(Second_Image, prop.getProperty("Back_Image"));
-			 click(Ok_Button);
-             Uploadimage(Redeem, prop.getProperty("Redeem_Image"));
-			 click(Ok_Button);
-			 System.out.println("Images upload Successfully");
+//			 Uploadimage(First_Image, prop.getProperty("Front_Image"));
+//			 click(Ok_Button);
+//			 Uploadimage(Second_Image, prop.getProperty("Back_Image"));
+//			 click(Ok_Button);
+//             Uploadimage(Redeem, prop.getProperty("Redeem_Image"));
+//			 click(Ok_Button);
+//			 System.out.println("Images upload Successfully");
 
 
 			 sendValue(Message, prop.getProperty("Message"));
 			 System.out.println("Enter text Successfully");
 
-			 sendValue(Amount, prop.getProperty("Crypto_Value"));
+			 sendValue(Bulk_Amount, prop.getProperty("Crypto_Value"));
 			 System.out.println("Enter crypto value Successfully");
 			 sendValue(Number_Of_Cards, prop.getProperty("Num_Cards"));
 			 
 			 Payment_Type(prop.getProperty("Payment_Method"));
-
+			 System.out.println("Gift card created Successfully...");
+			quitBrowser();
 
 			
 
@@ -65,7 +74,7 @@ public class Bulk_Cards_Creation extends base_class implements all_xpaths{
 
 				/* logger.error("Test Fail", e); */
 			   // onTestFailure();
-				//quitBrowser();
+				quitBrowser();
 				Assert.fail("");
 
 			}
