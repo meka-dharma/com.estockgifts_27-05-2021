@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="163821" started-at="2021-06-01T12:36:55Z" finished-at="2021-06-01T12:39:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="163821" started-at="2021-06-01T12:36:55Z" finished-at="2021-06-01T12:39:39Z">
+      <class name="Smoke_Test.Single_Card_Creation">
+        <test-method status="PASS" signature="Single_Card()[pri:0, instance:Smoke_Test.Single_Card_Creation@2ef5e5e3]" name="Single_Card" duration-ms="41980" started-at="2021-06-01T12:36:55Z" finished-at="2021-06-01T12:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Single_Card -->
+      </class> <!-- Smoke_Test.Single_Card_Creation -->
+      <class name="Smoke_Test.Certificate_Creation">
+        <test-method status="PASS" signature="Certificate()[pri:0, instance:Smoke_Test.Certificate_Creation@396a51ab]" name="Certificate" duration-ms="39210" started-at="2021-06-01T12:39:00Z" finished-at="2021-06-01T12:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Certificate -->
+      </class> <!-- Smoke_Test.Certificate_Creation -->
+      <class name="Smoke_Test.Marketing_Flyers">
+        <test-method status="PASS" signature="MarketingFlyers()[pri:0, instance:Smoke_Test.Marketing_Flyers@5034c75a]" name="MarketingFlyers" duration-ms="48090" started-at="2021-06-01T12:38:12Z" finished-at="2021-06-01T12:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarketingFlyers -->
+      </class> <!-- Smoke_Test.Marketing_Flyers -->
+      <class name="Smoke_Test.Bulk_Cards_Creation">
+        <test-method status="PASS" signature="Bulk_Cards()[pri:0, instance:Smoke_Test.Bulk_Cards_Creation@51efea79]" name="Bulk_Cards" duration-ms="34513" started-at="2021-06-01T12:37:37Z" finished-at="2021-06-01T12:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bulk_Cards -->
+      </class> <!-- Smoke_Test.Bulk_Cards_Creation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

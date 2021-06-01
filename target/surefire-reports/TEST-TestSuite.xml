@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="164.779" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Keyutech\Documents\eclipse-workspace\com.estockgifts_27-05-2021\target\test-classes;C:\Users\Keyutech\Documents\eclipse-workspace\com.estockgifts_27-05-2021\target\classes;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Keyutech\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Keyutech\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Keyutech\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Keyutech\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Keyutech\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Keyutech\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Keyutech\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Keyutech\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Keyutech\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Keyutech\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Keyutech\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\Keyutech\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Keyutech\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Keyutech\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Keyutech\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Keyutech\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Keyutech\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Keyutech\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Keyutech\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Keyutech\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Keyutech\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Keyutech\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Keyutech\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.1\maven-compiler-plugin-3.8.1.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\Keyutech\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\Keyutech\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Keyutech\AppData\Local\Temp\surefire161385629894837811\surefirebooter4000736790955821681.jar C:\Users\Keyutech\AppData\Local\Temp\surefire161385629894837811 2021-06-01T18-06-53_720-jvmRun1 surefire6404608980969875334tmp surefire_05589266391816295727tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Keyutech\Documents\eclipse-workspace\com.estockgifts_27-05-2021\target\test-classes;C:\Users\Keyutech\Documents\eclipse-workspace\com.estockgifts_27-05-2021\target\classes;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Keyutech\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Keyutech\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Keyutech\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Keyutech\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Keyutech\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Keyutech\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Keyutech\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Keyutech\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Keyutech\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Keyutech\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Keyutech\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\Keyutech\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Keyutech\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Keyutech\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Keyutech\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Keyutech\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Keyutech\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Keyutech\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Keyutech\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Keyutech\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Keyutech\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Keyutech\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Keyutech\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Keyutech\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.1\maven-compiler-plugin-3.8.1.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Keyutech\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Keyutech\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\Keyutech\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\Keyutech\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\Keyutech\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Keyutech"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\Keyutech\Documents\eclipse-workspace\com.estockgifts_27-05-2021"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Keyutech\AppData\Local\Temp\surefire161385629894837811\surefirebooter4000736790955821681.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="Keyutech"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="Suite_Name" value="testng.xml"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Keyutech\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Keyutech\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\Keyutech\Documents\eclipse-workspace\com.estockgifts_27-05-2021"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\Keyutech\.cache\selenium\geckodriver\win64\0.29.0\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\sdk-tools-windows-4333796\tools;C:\Program Files\sdk-tools-windows-4333796\tools\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\Git\cmd;C:\Users\Keyutech\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Keyutech\AppData\Local\Android\android-sdk\bin;C:\Users\Keyutech\AppData\Local\Android\android-sdk\tools\emulator;C:\Python27\python.exe;C:\sqlmap\sqlmap.py;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\Keyutech\AppData\Local\Android\android-sdk;C:\Users\Keyutech\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Keyutech\AppData\Local\GitHubDesktop\bin;C:\flutter\bin;C:\Users\Keyutech\AppData\Local\Android SDK\platform-tools;C:\Users\Keyutech\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Keyutech\AppData\Local\Android\android-sdk\tools;C:\Users\Keyutech\AppData\Roaming\npm;C:\Users\Keyutech\AppData\Local\Android SDK;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Single_Card" classname="Smoke_Test.Single_Card_Creation" time="42.294">
+    <system-out><![CDATA[Firefox Browser Opened Sucessfully
+Passing URL 
+Estockgifts Open Successfully
+Click Operation Performed Sucessfully on the element 
+Happy Birthday Data is Passed Sucessfully to input field  
+Enter event name Successfully
+Naga Data is Passed Sucessfully to input field  
+Lakshmi Data is Passed Sucessfully to input field  
+lakshmi13@yopmail.com Data is Passed Sucessfully to input field  
+6696009069 Data is Passed Sucessfully to input field  
+Liya Data is Passed Sucessfully to input field  
+Anantha Data is Passed Sucessfully to input field  
+Liya@yopmail.com Data is Passed Sucessfully to input field  
+6696009069 Data is Passed Sucessfully to input field  
+Happy Birthday My Dear Friend.. Data is Passed Sucessfully to input field  
+Enter text Successfully
+75 Data is Passed Sucessfully to input field  
+Enter crypto value Successfully
+Click Operation Performed Sucessfully on the element 
+Credit/Debit card Selected. 
+Ram Data is Passed Sucessfully to input field  
+4242-4242-4242-4242 Data is Passed Sucessfully to input field  
+11/23 Data is Passed Sucessfully to input field  
+123 Data is Passed Sucessfully to input field  
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Gift card created Successfully...
+Browser Quit Sucessfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1622551016478	geckodriver	INFO	Listening on 127.0.0.1:10820
+1622551017182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyutech\\AppData\\Local\\Temp\\rust_mozprofile8K2b2Y"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622551019732	Marionette	INFO	Listening on port 50441
+1622551019820	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 01, 2021 6:06:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+1622551056635	Marionette	INFO	Stopped listening on port 50441
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Bulk_Cards" classname="Smoke_Test.Bulk_Cards_Creation" time="34.666">
+    <system-out><![CDATA[Firefox Browser Opened Sucessfully
+Passing URL 
+Estockgifts Open Successfully
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Happy Birthday Data is Passed Sucessfully to input field  
+Enter event name Successfully
+Keyutech Data is Passed Sucessfully to input field  
+Enter Business name Successfully
+Naga Data is Passed Sucessfully to input field  
+Lakshmi Data is Passed Sucessfully to input field  
+lakshmi13@yopmail.com Data is Passed Sucessfully to input field  
+6696009069 Data is Passed Sucessfully to input field  
+Happy Birthday My Dear Friend.. Data is Passed Sucessfully to input field  
+Enter text Successfully
+75 Data is Passed Sucessfully to input field  
+Enter crypto value Successfully
+10 Data is Passed Sucessfully to input field  
+Click Operation Performed Sucessfully on the element 
+Credit/Debit card Selected. 
+Ram Data is Passed Sucessfully to input field  
+4242-4242-4242-4242 Data is Passed Sucessfully to input field  
+11/23 Data is Passed Sucessfully to input field  
+123 Data is Passed Sucessfully to input field  
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Gift card created Successfully...
+Browser Quit Sucessfully
+]]></system-out>
+    <system-err><![CDATA[1622551057598	geckodriver	INFO	Listening on 127.0.0.1:32449
+1622551058062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyutech\\AppData\\Local\\Temp\\rust_mozprofilebwIDg2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622551060628	Marionette	INFO	Listening on port 55559
+1622551060700	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 01, 2021 6:07:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+1622551088073	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622551091114	Marionette	INFO	Stopped listening on port 55559
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="MarketingFlyers" classname="Smoke_Test.Marketing_Flyers" time="53.797">
+    <system-out><![CDATA[Firefox Browser Opened Sucessfully
+Passing URL 
+Estockgifts Open Successfully
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Happy Birthday Data is Passed Sucessfully to input field  
+Enter event name Successfully
+Keyutech Data is Passed Sucessfully to input field  
+Enter Business name Successfully
+Naga Data is Passed Sucessfully to input field  
+Lakshmi Data is Passed Sucessfully to input field  
+lakshmi13@yopmail.com Data is Passed Sucessfully to input field  
+6696009069 Data is Passed Sucessfully to input field  
+Happy Birthday My Dear Friend.. Data is Passed Sucessfully to input field  
+Enter text Successfully
+Thank you Data is Passed Sucessfully to input field  
+Enter giftcard message Successfully
+california Data is Passed Sucessfully to input field  
+Liya@yopmail.com Data is Passed Sucessfully to input field  
+408-219-8111 Data is Passed Sucessfully to input field  
+75 Data is Passed Sucessfully to input field  
+Entered crypto value Successfully
+10 Data is Passed Sucessfully to input field  
+Number of cards selected Successfully
+Click Operation Performed Sucessfully on the element 
+Credit/Debit card Selected. 
+Ram Data is Passed Sucessfully to input field  
+4242-4242-4242-4242 Data is Passed Sucessfully to input field  
+11/23 Data is Passed Sucessfully to input field  
+123 Data is Passed Sucessfully to input field  
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Browser Quit Sucessfully
+]]></system-out>
+    <system-err><![CDATA[1622551092304	geckodriver	INFO	Listening on 127.0.0.1:35796
+1622551092577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyutech\\AppData\\Local\\Temp\\rust_mozprofilepbrzlp"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622551095302	Marionette	INFO	Listening on port 55662
+1622551095716	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 01, 2021 6:08:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+1622551124785	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622551138949	Marionette	INFO	Stopped listening on port 55662
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Certificate" classname="Smoke_Test.Certificate_Creation" time="33.347">
+    <system-out><![CDATA[Firefox Browser Opened Sucessfully
+Passing URL 
+Estockgifts Open Successfully
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Enter crypto value Successfully
+Naga Data is Passed Sucessfully to input field  
+Lakshmi Data is Passed Sucessfully to input field  
+lakshmi13@yopmail.com Data is Passed Sucessfully to input field  
+6696009069 Data is Passed Sucessfully to input field  
+Liya Data is Passed Sucessfully to input field  
+Anantha Data is Passed Sucessfully to input field  
+Liya@yopmail.com Data is Passed Sucessfully to input field  
+6696009069 Data is Passed Sucessfully to input field  
+Happy Birthday My Dear Friend.. Data is Passed Sucessfully to input field  
+Enter text Successfully
+Happy Birthday My Dear Friend.. Data is Passed Sucessfully to input field  
+Enter text Successfully
+Click Operation Performed Sucessfully on the element 
+Credit/Debit card Selected. 
+Ram Data is Passed Sucessfully to input field  
+4242-4242-4242-4242 Data is Passed Sucessfully to input field  
+11/23 Data is Passed Sucessfully to input field  
+123 Data is Passed Sucessfully to input field  
+Click Operation Performed Sucessfully on the element 
+Click Operation Performed Sucessfully on the element 
+Certificate created Successfully...
+Browser Quit Sucessfully
+]]></system-out>
+    <system-err><![CDATA[1622551140177	geckodriver	INFO	Listening on 127.0.0.1:41887
+1622551140666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyutech\\AppData\\Local\\Temp\\rust_mozprofileuuwZef"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622551143622	Marionette	INFO	Listening on port 55980
+1622551143807	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 01, 2021 6:09:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+JavaScript warning: https://api.sardine.ai/assets/collector.d6965f69.js, line 213: WebGL context was lost.
+1622551170552	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622551178374	Marionette	INFO	Stopped listening on port 55980
+]]></system-err>
+  </testcase>
+</testsuite>
