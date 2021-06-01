@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="Smoke_Test.Single_Card_Creation"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+-<suite name="Suite">
+
+<!-- Suite -->
+
+
+-<test name="Test">
+
+
+-<classes>
+
+<class name="Smoke_Test.Single_Card_Creation"/>
+
+<class name="Smoke_Test.Bulk_Cards_Creation"/>
+
+<class name="Smoke_Test.Marketing_Flyers"/>
+
+<class name="Smoke_Test.Certificate_Creation"/>
+
+</classes>
+
+</test>
+
+<!-- Test -->
+
+
+</suite>
